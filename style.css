@@ -1,14 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+body{
+    min-height: 100vh;
+    background-color:cornsilk;
+}
 .MainContainer{
     display: flex;
     flex-direction: column;
 }
 
 .nav{
-    border: 2px solid grey;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: crimson;
+    color: white;
 }
 
 .nav .firstDiv{
@@ -29,59 +39,68 @@
 .Content{
     display:flex ;
     justify-content: space-around;
-    border: 2px solid salmon;
 }
 
 .Left{
     padding:5px 0;
-    border: 2px solid lightseagreen;
     width: 25%;
 }
 
 .Center{
     padding: 20px;
-    border: 2px solid blue;
     width: 50%;
 }
 
 .Right{
-    border: 2px solid yellow;
     width: 25%;
     padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .Left .imageDiv{
     display: flex;
     align-items: center;
-
+    
 }
 
 .Left .imageDiv img{
     margin: 5px 30px;
+    border-radius: 10px;
 }
 
-.Center .imageDiv{
+.Center .imageDiv {
     display: flex;
     align-items: flex-start;
-    
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .Center .imageDiv img{
-    margin-bottom:10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .Center .imageDiv span{
-    margin-top: 15px;
-    margin-left: 15px;
+    margin: 15px;
+    text-align: justify;
 }
 
 .fa-flask{
     font-size: 80px;
 }
 
+.fa-snowflake{
+    font-size: 80px;
+    margin-top: 20px;
+}
+
 .fa-earth-asia{
     font-size: 50px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: crimson;
 }
