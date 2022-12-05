@@ -5,7 +5,7 @@
 
 .nav{
     border: 2px solid grey;
-    height: 60px;
+    padding: 10px;
 }
 
 .Content{
@@ -15,11 +15,13 @@
 }
 
 .Left{
+    padding:15px 0;
     border: 2px solid lightseagreen;
     width: 25%;
 }
 
 .Center{
+    padding: 15px;
     border: 2px solid blue;
     width: 50%;
 }
@@ -27,26 +29,41 @@
 .Right{
     border: 2px solid yellow;
     width: 25%;
-    padding: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Left .imageDiv{
     display: flex;
     align-items: center;
+
 }
 
-
+.Left .imageDiv img{
+    margin: 5px 30px;
+}
 
 .Center .imageDiv{
     display: flex;
     align-items: flex-start;
+    
 }
 
+.Center .imageDiv img{
+    margin-bottom:10px;
+}
 
 .Center .imageDiv span{
     margin-top: 15px;
+    margin-left: 15px;
 }
 
 .fa-flask{
     font-size: 80px;
+}
+
+.fa-earth-asia{
+    font-size: 50px;
 }
