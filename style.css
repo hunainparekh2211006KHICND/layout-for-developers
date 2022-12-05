@@ -12,7 +12,6 @@
     display:flex ;
     justify-content: space-around;
     border: 2px solid salmon;
-    height: 60vh;
 }
 
 .Left{
@@ -28,4 +27,26 @@
 .Right{
     border: 2px solid yellow;
     width: 25%;
+    padding: 10px;
+}
+
+.Left .imageDiv{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.Center .imageDiv{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.Center .imageDiv span{
+    margin-top: 15px;
+}
+
+.fa-flask{
+    font-size: 80px;
 }
