@@ -1,31 +1,31 @@
 .MainContainer{
     display: flex;
     flex-direction: column;
-
 }
 
 .nav{
     border: 2px solid grey;
-    padding-bottom: 30px;
-
+    height: 60px;
 }
 
 .Content{
     display:flex ;
     justify-content: space-around;
     border: 2px solid salmon;
+    height: 60vh;
 }
 
 .Left{
     border: 2px solid lightseagreen;
+    width: 25%;
 }
 
 .Center{
     border: 2px solid blue;
-
+    width: 50%;
 }
 
 .Right{
     border: 2px solid yellow;
-
+    width: 25%;
 }
